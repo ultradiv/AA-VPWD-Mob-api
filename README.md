@@ -5,7 +5,7 @@ Registers a new device using a stored procedure in SQL Server. This endpoint che
 #### 🔗 Endpoint
 
 ```
-POST /api/register
+POST https://aavp.vpwd.net/api/register
 ```
 
 #### 🔒 Authentication
