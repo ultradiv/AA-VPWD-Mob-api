@@ -1,0 +1,3636 @@
+{
+  "categories":[
+     {
+        "en_name":"Cereals",
+        "category_id":"1",
+        "parent_id":"0",
+        "toplevel_id":"0",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Cereals"
+           },
+           {
+              "code":"ar",
+              "translated_word":"الحبوب"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"দানাদার শস্য"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Céréale"
+           },
+           {
+              "code":"hi",
+              "translated_word":"अनाज"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Cereais"
+           },
+           {
+              "code":"es",
+              "translated_word":"Cereales"
+           }
+        ]
+     },
+     {
+        "en_name":"Maize",
+        "category_id":"16",
+        "parent_id":"1",
+        "toplevel_id":"1",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Maize"
+           },
+           {
+              "code":"ar",
+              "translated_word":"القمح"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"ভুট্টা "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Maïs"
+           },
+           {
+              "code":"hi",
+              "translated_word":"मक्का"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Milho"
+           },
+           {
+              "code":"es",
+              "translated_word":"Maíz"
+           }
+        ]
+     },
+     {
+        "en_name":"Other cereals",
+        "category_id":"17",
+        "parent_id":"1",
+        "toplevel_id":"1",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Other cereals"
+           },
+           {
+              "code":"ar",
+              "translated_word":"حبوب أخرى"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"অন্যান্য শস্যদানা"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Autre céréale"
+           },
+           {
+              "code":"hi",
+              "translated_word":"अन्य अनाज"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Outros cereais"
+           },
+           {
+              "code":"es",
+              "translated_word":"Otros cereales"
+           }
+        ]
+     },
+     {
+        "en_name":"Rice",
+        "category_id":"18",
+        "parent_id":"1",
+        "toplevel_id":"1",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Rice"
+           },
+           {
+              "code":"ar",
+              "translated_word":"الأرز"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"ধান"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Riz"
+           },
+           {
+              "code":"hi",
+              "translated_word":" चावल"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Arroz"
+           },
+           {
+              "code":"es",
+              "translated_word":"Arroz"
+           }
+        ]
+     },
+     {
+        "en_name":"Sorghum & Millets",
+        "category_id":"19",
+        "parent_id":"1",
+        "toplevel_id":"1",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Sorghum & Millets"
+           },
+           {
+              "code":"ar",
+              "translated_word":"السورجم والدخن"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"জোয়ার ও বাজরা"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Sorgho &amp; Millet"
+           },
+           {
+              "code":"hi",
+              "translated_word":"ज्वार और मोटा अनाज"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Sorgo e painço"
+           },
+           {
+              "code":"es",
+              "translated_word":"Sorgo y Mijos"
+           }
+        ]
+     },
+     {
+        "en_name":"Wheats",
+        "category_id":"29",
+        "parent_id":"1",
+        "toplevel_id":"1",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Wheats"
+           },
+           {
+              "code":"ar",
+              "translated_word":"القمح"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"গম "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Blé"
+           },
+           {
+              "code":"hi",
+              "translated_word":"गेंहूं"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Trigo"
+           },
+           {
+              "code":"es",
+              "translated_word":"Trigo"
+           }
+        ]
+     },
+     {
+        "en_name":"Roots, Tubers & Bananas",
+        "category_id":"2",
+        "parent_id":"0",
+        "toplevel_id":"0",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Roots, Tubers & Bananas"
+           },
+           {
+              "code":"ar",
+              "translated_word":"الجذور والدرنات والموز"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"শিকড়, কন্দ ও কলা "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Racine, Tubercule &amp; Banane"
+           },
+           {
+              "code":"hi",
+              "translated_word":"मूल, कंद और केले"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Raízes, tubérculos e bananas"
+           },
+           {
+              "code":"es",
+              "translated_word":"Raíces, Tubérculos y Banano"
+           }
+        ]
+     },
+     {
+        "en_name":"Bananas & Plantains",
+        "category_id":"21",
+        "parent_id":"2",
+        "toplevel_id":"2",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Bananas & Plantains"
+           },
+           {
+              "code":"ar",
+              "translated_word":"لموز والبلانتين"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"পাকা কলা ও কাঁচা কলা"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Banane &amp; Plantain"
+           },
+           {
+              "code":"hi",
+              "translated_word":"केले "
+           },
+           {
+              "code":"pt",
+              "translated_word":"Banana e plátano"
+           },
+           {
+              "code":"es",
+              "translated_word":"Banano y Plátano"
+           }
+        ]
+     },
+     {
+        "en_name":"Cassava",
+        "category_id":"22",
+        "parent_id":"2",
+        "toplevel_id":"2",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Cassava"
+           },
+           {
+              "code":"ar",
+              "translated_word":"الكاسافا"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"মেটে আলু "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Manioc"
+           },
+           {
+              "code":"hi",
+              "translated_word":"कसावा"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Mandioca"
+           },
+           {
+              "code":"es",
+              "translated_word":"Yuca"
+           }
+        ]
+     },
+     {
+        "en_name":"Other roots & tubers",
+        "category_id":"23",
+        "parent_id":"2",
+        "toplevel_id":"2",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Other roots & tubers"
+           },
+           {
+              "code":"ar",
+              "translated_word":"جذور ودرنات أخرى"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"অন্যান্য শিকড় ও কন্দ"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Autre racine &amp; tubercule"
+           },
+           {
+              "code":"hi",
+              "translated_word":"अन्य मूल  व कंद"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Outras raízes e tubérculos  "
+           },
+           {
+              "code":"es",
+              "translated_word":"Otras raíces y tubérculos"
+           }
+        ]
+     },
+     {
+        "en_name":"Potatoes",
+        "category_id":"24",
+        "parent_id":"2",
+        "toplevel_id":"2",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Potatoes"
+           },
+           {
+              "code":"ar",
+              "translated_word":"البطاطس"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"আলু "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Pomme de terre"
+           },
+           {
+              "code":"hi",
+              "translated_word":"आलू"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Batata"
+           },
+           {
+              "code":"es",
+              "translated_word":"Papa"
+           }
+        ]
+     },
+     {
+        "en_name":"Sweet potatoes",
+        "category_id":"25",
+        "parent_id":"2",
+        "toplevel_id":"2",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Sweet potatoes"
+           },
+           {
+              "code":"ar",
+              "translated_word":"البطاطا"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"মিষ্টি আলু "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Patate douce"
+           },
+           {
+              "code":"hi",
+              "translated_word":"शकरकंद"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Batata-doce"
+           },
+           {
+              "code":"es",
+              "translated_word":"Camote"
+           }
+        ]
+     },
+     {
+        "en_name":"Vegetables",
+        "category_id":"3",
+        "parent_id":"0",
+        "toplevel_id":"0",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Vegetables"
+           },
+           {
+              "code":"ar",
+              "translated_word":"الخضروات"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"সব্জি "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Légume"
+           },
+           {
+              "code":"hi",
+              "translated_word":"सब्जियां "
+           },
+           {
+              "code":"pt",
+              "translated_word":"Legumes e verduras"
+           },
+           {
+              "code":"es",
+              "translated_word":"Hortalizas"
+           }
+        ]
+     },
+     {
+        "en_name":"Edible fungi",
+        "category_id":"26",
+        "parent_id":"3",
+        "toplevel_id":"3",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Edible fungi"
+           },
+           {
+              "code":"ar",
+              "translated_word":"المشروم"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"খাবারযোগ্য ছত্রাক "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Champignon comestible"
+           },
+           {
+              "code":"hi",
+              "translated_word":"खाद्य कवक"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Fungos comestíveis"
+           },
+           {
+              "code":"es",
+              "translated_word":"Hongos comestibles"
+           }
+        ]
+     },
+     {
+        "en_name":"Leaf vegetables",
+        "category_id":"27",
+        "parent_id":"3",
+        "toplevel_id":"3",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Leaf vegetables"
+           },
+           {
+              "code":"ar",
+              "translated_word":"الخضروات الورقية"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"পাতা সব্জি "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Légume feuille"
+           },
+           {
+              "code":"hi",
+              "translated_word":"पत्ती वाली सब्जियां"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Verduras de folhas"
+           },
+           {
+              "code":"es",
+              "translated_word":"Hortalizas de hoja"
+           }
+        ]
+     },
+     {
+        "en_name":"Onions",
+        "category_id":"28",
+        "parent_id":"3",
+        "toplevel_id":"3",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Onions"
+           },
+           {
+              "code":"ar",
+              "translated_word":"البصل"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"পেঁয়াজ "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Oignon"
+           },
+           {
+              "code":"hi",
+              "translated_word":"प्याज"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Cebola"
+           },
+           {
+              "code":"es",
+              "translated_word":"Cebolla"
+           }
+        ]
+     },
+     {
+        "en_name":"Other vegetables",
+        "category_id":"29",
+        "parent_id":"3",
+        "toplevel_id":"3",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Other vegetables"
+           },
+           {
+              "code":"ar",
+              "translated_word":"خضروات أخرى"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"অন্যান্য সব্জি "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Autre légume"
+           },
+           {
+              "code":"hi",
+              "translated_word":"अन्य सब्जियां"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Outras hortaliças"
+           },
+           {
+              "code":"es",
+              "translated_word":"Otras hortalizas"
+           }
+        ]
+     },
+     {
+        "en_name":"Tomatoes",
+        "category_id":"38",
+        "parent_id":"3",
+        "toplevel_id":"3",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Tomatoes"
+           },
+           {
+              "code":"ar",
+              "translated_word":"الطماطم"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"টমেটো "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Tomate"
+           },
+           {
+              "code":"hi",
+              "translated_word":"टमाटर"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Tomate"
+           },
+           {
+              "code":"es",
+              "translated_word":"Tomate"
+           }
+        ]
+     },
+     {
+        "en_name":"Legumes",
+        "category_id":"4",
+        "parent_id":"0",
+        "toplevel_id":"0",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Legumes"
+           },
+           {
+              "code":"ar",
+              "translated_word":"البقوليات"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"কলাই/ শুঁটি "
+           },
+           {
+              "code":"fr",
+              "translated_word":" Légumineuse"
+           },
+           {
+              "code":"hi",
+              "translated_word":"फलिया"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Leguminosas"
+           },
+           {
+              "code":"es",
+              "translated_word":"Leguminosas"
+           }
+        ]
+     },
+     {
+        "en_name":"Beans",
+        "category_id":"31",
+        "parent_id":"4",
+        "toplevel_id":"4",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Beans"
+           },
+           {
+              "code":"ar",
+              "translated_word":"الفول"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"মটরশুঁটি "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Haricot"
+           },
+           {
+              "code":"hi",
+              "translated_word":"बीन्स "
+           },
+           {
+              "code":"pt",
+              "translated_word":"Feijão "
+           },
+           {
+              "code":"es",
+              "translated_word":"Frijol"
+           }
+        ]
+     },
+     {
+        "en_name":"Cowpeas",
+        "category_id":"32",
+        "parent_id":"4",
+        "toplevel_id":"4",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Cowpeas"
+           },
+           {
+              "code":"ar",
+              "translated_word":"البازلاء"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"বরবটি"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Niébé"
+           },
+           {
+              "code":"hi",
+              "translated_word":"लोबिया"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Feijão-de-corda "
+           },
+           {
+              "code":"es",
+              "translated_word":"Caupí"
+           }
+        ]
+     },
+     {
+        "en_name":"Groundnuts",
+        "category_id":"33",
+        "parent_id":"4",
+        "toplevel_id":"4",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Groundnuts"
+           },
+           {
+              "code":"ar",
+              "translated_word":"الفول السوداني"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"চীনাবাদাম"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Arachide"
+           },
+           {
+              "code":"hi",
+              "translated_word":"मूंगफली"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Amendoim"
+           },
+           {
+              "code":"es",
+              "translated_word":"Cacahuate o maní"
+           }
+        ]
+     },
+     {
+        "en_name":"Other legumes",
+        "category_id":"34",
+        "parent_id":"4",
+        "toplevel_id":"4",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Other legumes"
+           },
+           {
+              "code":"ar",
+              "translated_word":"بقول أخرى"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"অন্যান্য কলাই/ শুঁটি"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Autre légumineuse"
+           },
+           {
+              "code":"hi",
+              "translated_word":"अन्य फलिया"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Outras leguminosas"
+           },
+           {
+              "code":"es",
+              "translated_word":"Otras leguminosas"
+           }
+        ]
+     },
+     {
+        "en_name":"Pigeon peas",
+        "category_id":"35",
+        "parent_id":"4",
+        "toplevel_id":"4",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Pigeon peas"
+           },
+           {
+              "code":"ar",
+              "translated_word":"اللوبيا"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"অড়হর ডাল"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Pois d&#039;angol"
+           },
+           {
+              "code":"hi",
+              "translated_word":"अरहर"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Feijão guandu"
+           },
+           {
+              "code":"es",
+              "translated_word":"Guandul"
+           }
+        ]
+     },
+     {
+        "en_name":"Soya beans",
+        "category_id":"36",
+        "parent_id":"4",
+        "toplevel_id":"4",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Soya beans"
+           },
+           {
+              "code":"ar",
+              "translated_word":"فول الصويا"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"সয়াবীন"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Soja"
+           },
+           {
+              "code":"hi",
+              "translated_word":" सोयाबीन"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Soja"
+           },
+           {
+              "code":"es",
+              "translated_word":"Soja"
+           }
+        ]
+     },
+     {
+        "en_name":"Fruits & Nuts",
+        "category_id":"75",
+        "parent_id":"10",
+        "toplevel_id":"10",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Fruits & Nuts"
+           },
+           {
+              "code":"ar",
+              "translated_word":"الفاكهه والمكسرات"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"ফল ও বাদাম"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Fruit &amp; Noix"
+           },
+           {
+              "code":"hi",
+              "translated_word":"फल और नट्स  "
+           },
+           {
+              "code":"pt",
+              "translated_word":"Frutas e castanhas"
+           },
+           {
+              "code":"es",
+              "translated_word":"Frutas y Nueces"
+           }
+        ]
+     },
+     {
+        "en_name":"Bananas",
+        "category_id":"37",
+        "parent_id":"5",
+        "toplevel_id":"5",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Bananas"
+           },
+           {
+              "code":"ar",
+              "translated_word":"الموز"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"কলা"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Banane"
+           },
+           {
+              "code":"hi",
+              "translated_word":" केला"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Bananas"
+           },
+           {
+              "code":"es",
+              "translated_word":"Banano"
+           }
+        ]
+     },
+     {
+        "en_name":"Cashews",
+        "category_id":"38",
+        "parent_id":"5",
+        "toplevel_id":"5",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Cashews"
+           },
+           {
+              "code":"ar",
+              "translated_word":"الكاشيو"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"কাজু বাদাম"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Noix de cajou"
+           },
+           {
+              "code":"hi",
+              "translated_word":"काजू"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Caju"
+           },
+           {
+              "code":"es",
+              "translated_word":"Anacardo o Marañón "
+           }
+        ]
+     },
+     {
+        "en_name":"Dates",
+        "category_id":"39",
+        "parent_id":"5",
+        "toplevel_id":"5",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Dates"
+           },
+           {
+              "code":"ar",
+              "translated_word":"البلح"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"খেজুর"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Datte"
+           },
+           {
+              "code":"hi",
+              "translated_word":"खजूर"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Tâmara"
+           },
+           {
+              "code":"es",
+              "translated_word":"Dátil"
+           }
+        ]
+     },
+     {
+        "en_name":"Mangoes",
+        "category_id":"40",
+        "parent_id":"5",
+        "toplevel_id":"5",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Mangoes"
+           },
+           {
+              "code":"ar",
+              "translated_word":"المانجو"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"আম"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Mangue"
+           },
+           {
+              "code":"hi",
+              "translated_word":"आम"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Manga"
+           },
+           {
+              "code":"es",
+              "translated_word":"Mango"
+           }
+        ]
+     },
+     {
+        "en_name":"Other fruits",
+        "category_id":"41",
+        "parent_id":"5",
+        "toplevel_id":"5",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Other fruits"
+           },
+           {
+              "code":"ar",
+              "translated_word":"فواكه أخرى"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"অন্যান্য ফল"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Autre fruit"
+           },
+           {
+              "code":"hi",
+              "translated_word":"अन्य फल"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Outras frutas"
+           },
+           {
+              "code":"es",
+              "translated_word":"Otras frutas"
+           }
+        ]
+     },
+     {
+        "en_name":"Other nuts",
+        "category_id":"42",
+        "parent_id":"5",
+        "toplevel_id":"5",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Other nuts"
+           },
+           {
+              "code":"ar",
+              "translated_word":"مكسرات أخرى"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"অন্যান্য বাদাম"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Autre noix"
+           },
+           {
+              "code":"hi",
+              "translated_word":"अन्य नट्स"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Outras castanhas"
+           },
+           {
+              "code":"es",
+              "translated_word":"Otras nueces"
+           }
+        ]
+     },
+     {
+        "en_name":"Pineapples",
+        "category_id":"43",
+        "parent_id":"5",
+        "toplevel_id":"5",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Pineapples"
+           },
+           {
+              "code":"ar",
+              "translated_word":"الأناناس"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"আনারস"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Ananas"
+           },
+           {
+              "code":"hi",
+              "translated_word":"अनानास"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Abacaxi"
+           },
+           {
+              "code":"es",
+              "translated_word":"Piña"
+           }
+        ]
+     },
+     {
+        "en_name":"Shea nuts",
+        "category_id":"4",
+        "parent_id":"5",
+        "toplevel_id":"5",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Shea nuts"
+           },
+           {
+              "code":"ar",
+              "translated_word":"جوز الشيا"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"শিয়া বাদাম"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Noix de karité"
+           },
+           {
+              "code":"hi",
+              "translated_word":"शिआ नट्स"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Noz de karité"
+           },
+           {
+              "code":"es",
+              "translated_word":"Nuez de karité"
+           }
+        ]
+     },
+     {
+        "en_name":"Other Crops",
+        "category_id":"49",
+        "parent_id":"6",
+        "toplevel_id":"6",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Other Crops"
+           },
+           {
+              "code":"ar",
+              "translated_word":"محاصيل أخرى"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"অন্যান্য শস্য "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Autre Culture"
+           },
+           {
+              "code":"hi",
+              "translated_word":"अन्य फसलें"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Outros cultivos"
+           },
+           {
+              "code":"es",
+              "translated_word":"Otros Cultivos"
+           }
+        ]
+     },
+     {
+        "en_name":"Beverage crops",
+        "category_id":"45",
+        "parent_id":"6",
+        "toplevel_id":"6",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Beverage crops"
+           },
+           {
+              "code":"ar",
+              "translated_word":"محاصيل المشروبات"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"পানীয় জাতীয় শস্য "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Plante à boisson"
+           },
+           {
+              "code":"hi",
+              "translated_word":"पेय फसलें"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Cultivos de bebida"
+           },
+           {
+              "code":"es",
+              "translated_word":"Cultivos para bebidas"
+           }
+        ]
+     },
+     {
+        "en_name":"Chillies",
+        "category_id":"46",
+        "parent_id":"6",
+        "toplevel_id":"6",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Chillies"
+           },
+           {
+              "code":"ar",
+              "translated_word":"الفلفل الحار"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"মরিচ"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Piment fort"
+           },
+           {
+              "code":"hi",
+              "translated_word":"मिर्च"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Pimenta chilli"
+           },
+           {
+              "code":"es",
+              "translated_word":"Chiles"
+           }
+        ]
+     },
+     {
+        "en_name":"Coffee",
+        "category_id":"47",
+        "parent_id":"6",
+        "toplevel_id":"6",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Coffee"
+           },
+           {
+              "code":"ar",
+              "translated_word":"القهوة"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"কফি"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Café"
+           },
+           {
+              "code":"hi",
+              "translated_word":"कॉफ़ी"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Café"
+           },
+           {
+              "code":"es",
+              "translated_word":"Café"
+           }
+        ]
+     },
+     {
+        "en_name":"Herbs & Spices",
+        "category_id":"48",
+        "parent_id":"6",
+        "toplevel_id":"6",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Herbs & Spices"
+           },
+           {
+              "code":"ar",
+              "translated_word":"الأعشاب والتوابل"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"ভেষজ ও মশলা"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Herbe &amp; Épice"
+           },
+           {
+              "code":"hi",
+              "translated_word":"औषधि व मसाला"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Ervas e especiarias"
+           },
+           {
+              "code":"es",
+              "translated_word":"Hierbas y Especias"
+           }
+        ]
+     },
+     {
+        "en_name":"Other crops",
+        "category_id":"49",
+        "parent_id":"6",
+        "toplevel_id":"6",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Other crops"
+           },
+           {
+              "code":"ar",
+              "translated_word":"محاصيل أخرى"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"অন্যান্য শস্য "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Autre culture"
+           },
+           {
+              "code":"hi",
+              "translated_word":"अन्य फसलें"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Outros cultivos"
+           },
+           {
+              "code":"es",
+              "translated_word":"Otros cultivos"
+           }
+        ]
+     },
+     {
+        "en_name":"Plant fibres",
+        "category_id":"50",
+        "parent_id":"6",
+        "toplevel_id":"6",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Plant fibres"
+           },
+           {
+              "code":"ar",
+              "translated_word":"نباتات ليفيه"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"উদ্ভিজ জাতীয় আঁশ"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Fibre végétale"
+           },
+           {
+              "code":"hi",
+              "translated_word":"रेशे वाले पौधे"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Fibras vegetais"
+           },
+           {
+              "code":"es",
+              "translated_word":"Fibras vegetales"
+           }
+        ]
+     },
+     {
+        "en_name":"Livestock",
+        "category_id":"54",
+        "parent_id":"7",
+        "toplevel_id":"7",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Livestock"
+           },
+           {
+              "code":"ar",
+              "translated_word":"المواشي"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"পশুসম্পদ "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Bétail"
+           },
+           {
+              "code":"hi",
+              "translated_word":"पशुधन"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Rebanho"
+           },
+           {
+              "code":"es",
+              "translated_word":"Ganado"
+           }
+        ]
+     },
+     {
+        "en_name":"Animal health",
+        "category_id":"51",
+        "parent_id":"7",
+        "toplevel_id":"7",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Animal health"
+           },
+           {
+              "code":"ar",
+              "translated_word":"صحة الحيوان"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"পশু স্বাস্থ্য "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Santé animale"
+           },
+           {
+              "code":"hi",
+              "translated_word":"पशु स्वास्थ्य"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Saúde animal"
+           },
+           {
+              "code":"es",
+              "translated_word":"Sanidad animal"
+           }
+        ]
+     },
+     {
+        "en_name":"Cattle",
+        "category_id":"52",
+        "parent_id":"7",
+        "toplevel_id":"7",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Cattle"
+           },
+           {
+              "code":"ar",
+              "translated_word":"الماشية"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"গবাদি পশু"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Bovin"
+           },
+           {
+              "code":"hi",
+              "translated_word":" मवेशी"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Gado"
+           },
+           {
+              "code":"es",
+              "translated_word":"Ganado bovino"
+           }
+        ]
+     },
+     {
+        "en_name":"Horses & Donkeys",
+        "category_id":"53",
+        "parent_id":"7",
+        "toplevel_id":"7",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Horses & Donkeys"
+           },
+           {
+              "code":"ar",
+              "translated_word":"الأحصنة والحمير"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"ঘোড়া ও গাধা "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Cheval &amp; Âne"
+           },
+           {
+              "code":"hi",
+              "translated_word":"घोड़े और गधे"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Cavalos e burros"
+           },
+           {
+              "code":"es",
+              "translated_word":"Caballos y Burros"
+           }
+        ]
+     },
+     {
+        "en_name":"Other livestock",
+        "category_id":"54",
+        "parent_id":"7",
+        "toplevel_id":"7",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Other livestock"
+           },
+           {
+              "code":"ar",
+              "translated_word":"مواشي أخرى"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"অন্যান্য পশুসম্পদ "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Autre bétail"
+           },
+           {
+              "code":"hi",
+              "translated_word":"अन्य पशु"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Outros rebanhos"
+           },
+           {
+              "code":"es",
+              "translated_word":"Otro ganado"
+           }
+        ]
+     },
+     {
+        "en_name":"Pigs",
+        "category_id":"55",
+        "parent_id":"7",
+        "toplevel_id":"7",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Pigs"
+           },
+           {
+              "code":"ar",
+              "translated_word":"الخنازير"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"শূকর"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Porcin"
+           },
+           {
+              "code":"hi",
+              "translated_word":"सूअर"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Suínos"
+           },
+           {
+              "code":"es",
+              "translated_word":"Cerdos"
+           }
+        ]
+     },
+     {
+        "en_name":"Poultry",
+        "category_id":"56",
+        "parent_id":"7",
+        "toplevel_id":"7",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Poultry"
+           },
+           {
+              "code":"ar",
+              "translated_word":"الدواجن"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"হাঁস-মুরগী "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Volaille"
+           },
+           {
+              "code":"hi",
+              "translated_word":"कुक्कट"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Aves"
+           },
+           {
+              "code":"es",
+              "translated_word":"Aves de corral"
+           }
+        ]
+     },
+     {
+        "en_name":"Rabbits",
+        "category_id":"57",
+        "parent_id":"7",
+        "toplevel_id":"7",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Rabbits"
+           },
+           {
+              "code":"ar",
+              "translated_word":"الأرانب"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"খরগোশ "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Lapin"
+           },
+           {
+              "code":"hi",
+              "translated_word":"खरगोश"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Coelhos"
+           },
+           {
+              "code":"es",
+              "translated_word":"Conejos"
+           }
+        ]
+     },
+     {
+        "en_name":"Sheep & Goats",
+        "category_id":"58",
+        "parent_id":"7",
+        "toplevel_id":"7",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Sheep & Goats"
+           },
+           {
+              "code":"ar",
+              "translated_word":"الماعز والأغنام"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"ভেড়া ও ছাগল "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Ovin &amp; Caprin"
+           },
+           {
+              "code":"hi",
+              "translated_word":"भेड़ और बकरी"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Ovelhas e cabras"
+           },
+           {
+              "code":"es",
+              "translated_word":"Ovinos y Caprinos"
+           }
+        ]
+     },
+     {
+        "en_name":"Aquaculture",
+        "category_id":"8",
+        "parent_id":"0",
+        "toplevel_id":"0",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Aquaculture"
+           },
+           {
+              "code":"ar",
+              "translated_word":"الأحياء المائية"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"অ্যাকুয়াকালচার"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Aquaculture"
+           },
+           {
+              "code":"hi",
+              "translated_word":"जलकृषि"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Aquicultura"
+           },
+           {
+              "code":"es",
+              "translated_word":"Acuicultura"
+           }
+        ]
+     },
+     {
+        "en_name":"Fish culture",
+        "category_id":"59",
+        "parent_id":"8",
+        "toplevel_id":"8",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Fish culture"
+           },
+           {
+              "code":"ar",
+              "translated_word":"استزراع الأسماك"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"মাছ চাষ "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Pisciculture"
+           },
+           {
+              "code":"hi",
+              "translated_word":"मत्स्य पालन"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Piscicultura"
+           },
+           {
+              "code":"es",
+              "translated_word":"Piscicultura"
+           }
+        ]
+     },
+     {
+        "en_name":"Other aquaculture",
+        "category_id":"60",
+        "parent_id":"8",
+        "toplevel_id":"8",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Other aquaculture"
+           },
+           {
+              "code":"ar",
+              "translated_word":"أحياء مائية أخرى"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"অন্যান্য অ্যাকুয়াকালচার"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Autre aquaculture"
+           },
+           {
+              "code":"hi",
+              "translated_word":"अन्य जलकृषि"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Outra aquicultura"
+           },
+           {
+              "code":"es",
+              "translated_word":"Otra acuicultura"
+           }
+        ]
+     },
+     {
+        "en_name":"Processing",
+        "category_id":"61",
+        "parent_id":"8",
+        "toplevel_id":"8",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Processing"
+           },
+           {
+              "code":"ar",
+              "translated_word":"معالجة الغذاء"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"প্রক্রিয়াকরণ "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Transformation "
+           },
+           {
+              "code":"hi",
+              "translated_word":"प्रसंस्करण"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Processamento"
+           },
+           {
+              "code":"es",
+              "translated_word":"Procesamiento"
+           }
+        ]
+     },
+     {
+        "en_name":"Shellfish culture",
+        "category_id":"62",
+        "parent_id":"8",
+        "toplevel_id":"8",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Shellfish culture"
+           },
+           {
+              "code":"ar",
+              "translated_word":"استزراع ا لمحار"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"ঝিনুক চাষ "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Élevage de coquillage et crustacé"
+           },
+           {
+              "code":"hi",
+              "translated_word":"घोंघा पालन"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Cultura de mariscos"
+           },
+           {
+              "code":"es",
+              "translated_word":"Cría de mariscos"
+           }
+        ]
+     },
+     {
+        "en_name":"Sustainable Land Management",
+        "category_id":"9",
+        "parent_id":"0",
+        "toplevel_id":"0",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Sustainable Land Management"
+           },
+           {
+              "code":"ar",
+              "translated_word":"الإدارة المستدامة للأراضي"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"স্থায়িত্বশীল ভূমি ব্যবস্থাপনা "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Gestion durable des terres"
+           },
+           {
+              "code":"hi",
+              "translated_word":"स्थायी भूमि प्रबंधन"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Manejo sustentável da terra"
+           },
+           {
+              "code":"es",
+              "translated_word":"Manejo sostenible de tierra"
+           }
+        ]
+     },
+     {
+        "en_name":"Agroforestry",
+        "category_id":"63",
+        "parent_id":"9",
+        "toplevel_id":"9",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Agroforestry"
+           },
+           {
+              "code":"ar",
+              "translated_word":"الحراجة الزراعية"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"কৃষি বনায়ন"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Agroforesterie"
+           },
+           {
+              "code":"hi",
+              "translated_word":"कृषि वानिकी"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Sistema agroflorestal "
+           },
+           {
+              "code":"es",
+              "translated_word":"Agroforestería"
+           }
+        ]
+     },
+     {
+        "en_name":"Conservation agriculture",
+        "category_id":"64",
+        "parent_id":"9",
+        "toplevel_id":"9",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Conservation agriculture"
+           },
+           {
+              "code":"ar",
+              "translated_word":"الزراعة الحافظة للموارد"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"সংরক্ষনমূলক কৃষি "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Agriculture de conservation"
+           },
+           {
+              "code":"hi",
+              "translated_word":"संरक्षण कृषि"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Agricultura de conservação"
+           },
+           {
+              "code":"es",
+              "translated_word":"Agricultura de conservación"
+           }
+        ]
+     },
+     {
+        "en_name":"Cross-slope barriers",
+        "category_id":"65",
+        "parent_id":"9",
+        "toplevel_id":"9",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Cross-slope barriers"
+           },
+           {
+              "code":"ar",
+              "translated_word":"حواجز الميول"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"ঢালু জমির প্রতিবন্ধকতা"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Barrière transversale"
+           },
+           {
+              "code":"hi",
+              "translated_word":"ढलान- विपरीत बाधा"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Barreiras de encosta transversais "
+           },
+           {
+              "code":"es",
+              "translated_word":"Barreras de pendiente cruzada"
+           }
+        ]
+     },
+     {
+        "en_name":"Forest management",
+        "category_id":"66",
+        "parent_id":"9",
+        "toplevel_id":"9",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Forest management"
+           },
+           {
+              "code":"ar",
+              "translated_word":"إدارة الغابات"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"বন ব্যবস্থাপনা "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Aménagement forestier"
+           },
+           {
+              "code":"hi",
+              "translated_word":"वन प्रबंध"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Manejo florestal "
+           },
+           {
+              "code":"es",
+              "translated_word":"Manejo forestal"
+           }
+        ]
+     },
+     {
+        "en_name":"Integrated crop-livestock",
+        "category_id":"67",
+        "parent_id":"9",
+        "toplevel_id":"9",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Integrated crop-livestock"
+           },
+           {
+              "code":"ar",
+              "translated_word":"التكامل بين المحاصيل والمواشي"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"সমন্বিত ফসল-পশুসম্পদ "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Intégration agro-pastorale"
+           },
+           {
+              "code":"hi",
+              "translated_word":" एकीकृत फसल-पशुधन"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Plantio-criação de animais integrados"
+           },
+           {
+              "code":"es",
+              "translated_word":"Integrado de cultivos-ganadería"
+           }
+        ]
+     },
+     {
+        "en_name":"Soil fertility management",
+        "category_id":"68",
+        "parent_id":"9",
+        "toplevel_id":"9",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Soil fertility management"
+           },
+           {
+              "code":"ar",
+              "translated_word":"إدارة خصوبة التربة بشكل متكامل"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"ভূমি উর্বরতা ব্যবস্থাপনা"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Gestion de la fertilité du sol"
+           },
+           {
+              "code":"hi",
+              "translated_word":"मृदा उर्वरता प्रबंधन"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Manejo da fertilidade do solo "
+           },
+           {
+              "code":"es",
+              "translated_word":"Manejo de la fertilidad del suelo"
+           }
+        ]
+     },
+     {
+        "en_name":"Other SLM",
+        "category_id":"69",
+        "parent_id":"9",
+        "toplevel_id":"9",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Other SLM"
+           },
+           {
+              "code":"ar",
+              "translated_word":"إدارة مستدامة أخرى"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"অন্যান্য এসএলএম "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Autre GDT"
+           },
+           {
+              "code":"hi",
+              "translated_word":"अन्य मृदा उर्वरता प्रबंधन"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Outro tipo de manejo sustentável da terra"
+           },
+           {
+              "code":"es",
+              "translated_word":"Otro SLM"
+           }
+        ]
+     },
+     {
+        "en_name":"Pastoralism & Rangelands",
+        "category_id":"70",
+        "parent_id":"9",
+        "toplevel_id":"9",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Pastoralism & Rangelands"
+           },
+           {
+              "code":"ar",
+              "translated_word":"المراعي وأرض الرعي"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"মেষপালন ও পশুচারণ ভূমি"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Pastoralisme &amp; Parcours"
+           },
+           {
+              "code":"hi",
+              "translated_word":"पशु-धन प्रमुखता और चारागाह"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Pastoralismo e pastagens"
+           },
+           {
+              "code":"es",
+              "translated_word":"Pastoralismo y pastizales"
+           }
+        ]
+     },
+     {
+        "en_name":"Rainwater harvesting",
+        "category_id":"71",
+        "parent_id":"9",
+        "toplevel_id":"9",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Rainwater harvesting"
+           },
+           {
+              "code":"ar",
+              "translated_word":"جمع مياه الأمطار"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"বৃষ্টির পানির মাধ্যমে চাষাবাদ "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Captage d&#039;eau pluviale"
+           },
+           {
+              "code":"hi",
+              "translated_word":"वर्षाजल संग्रहण"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Captação de água da chuva "
+           },
+           {
+              "code":"es",
+              "translated_word":"Captación del agua de lluvia"
+           }
+        ]
+     },
+     {
+        "en_name":"Smallholder irrigation",
+        "category_id":"72",
+        "parent_id":"9",
+        "toplevel_id":"9",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Smallholder irrigation"
+           },
+           {
+              "code":"ar",
+              "translated_word":"ري صغار المزارعين"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"ক্ষুদ্র জমিতে সেচ পদ্ধতি "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Petite irrigation"
+           },
+           {
+              "code":"hi",
+              "translated_word":"लघुकृषक सिंचाई"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Irrigação de pequeno porte"
+           },
+           {
+              "code":"es",
+              "translated_word":"Riego a pequeña escala"
+           }
+        ]
+     },
+     {
+        "en_name":"Plant Health",
+        "category_id":"76",
+        "parent_id":"10",
+        "toplevel_id":"10",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Plant Health"
+           },
+           {
+              "code":"ar",
+              "translated_word":"صحة النبات"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"উদ্ভিদ স্বাস্থ্য"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Santé végétale"
+           },
+           {
+              "code":"hi",
+              "translated_word":"पौध स्वास्थ्य"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Saúde das plantas"
+           },
+           {
+              "code":"es",
+              "translated_word":"Sanidad vegetal"
+           }
+        ]
+     },
+     {
+        "en_name":"Legumes",
+        "category_id":"73",
+        "parent_id":"10",
+        "toplevel_id":"10",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Legumes"
+           },
+           {
+              "code":"ar",
+              "translated_word":"البقوليات"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"কলাই "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Légumineuse"
+           },
+           {
+              "code":"hi",
+              "translated_word":"फलिया"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Leguminosas"
+           },
+           {
+              "code":"es",
+              "translated_word":"Leguminosas"
+           }
+        ]
+     },
+     {
+        "en_name":"Cereals",
+        "category_id":"74",
+        "parent_id":"10",
+        "toplevel_id":"10",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Cereals"
+           },
+           {
+              "code":"ar",
+              "translated_word":"الحبوب"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"দানাদার শস্য"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Céréale"
+           },
+           {
+              "code":"hi",
+              "translated_word":"अनाज"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Cereais"
+           },
+           {
+              "code":"es",
+              "translated_word":"Cereales"
+           }
+        ]
+     },
+     {
+        "en_name":"Fruits & Nuts",
+        "category_id":"75",
+        "parent_id":"10",
+        "toplevel_id":"10",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Fruits & Nuts"
+           },
+           {
+              "code":"ar",
+              "translated_word":"الفاكهه والمكسرات"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"ফল ও বাদাম"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Fruit &amp; Noix"
+           },
+           {
+              "code":"hi",
+              "translated_word":" फल और नट्स"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Frutas e nozes"
+           },
+           {
+              "code":"es",
+              "translated_word":"Frutas y nueces"
+           }
+        ]
+     },
+     {
+        "en_name":"Other plant health",
+        "category_id":"76",
+        "parent_id":"10",
+        "toplevel_id":"10",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Other plant health"
+           },
+           {
+              "code":"ar",
+              "translated_word":"صحة نباتات أخرى"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"অন্যান্য উদ্ভিদ স্বাস্থ্য"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Autre santé végétale"
+           },
+           {
+              "code":"hi",
+              "translated_word":"अन्य पौध स्वास्थ्य"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Outras saúde das plantas"
+           },
+           {
+              "code":"es",
+              "translated_word":"Otra sanidad vegetal"
+           }
+        ]
+     },
+     {
+        "en_name":"Roots, Tubers & Bananas",
+        "category_id":"7",
+        "parent_id":"10",
+        "toplevel_id":"10",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Roots, Tubers & Bananas"
+           },
+           {
+              "code":"ar",
+              "translated_word":"الجذور والدرنات والموز"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"শিকড়, কন্দ ও কলা "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Racine, Tubercule &amp; Banane"
+           },
+           {
+              "code":"hi",
+              "translated_word":"मूल, कंद और केले"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Raízes, tubérculos e bananas"
+           },
+           {
+              "code":"es",
+              "translated_word":"Raíces, Tubérculos y Banano"
+           }
+        ]
+     },
+     {
+        "en_name":"Vegetables",
+        "category_id":"78",
+        "parent_id":"10",
+        "toplevel_id":"10",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Vegetables"
+           },
+           {
+              "code":"ar",
+              "translated_word":"الخضروات"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"সব্জি"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Légume"
+           },
+           {
+              "code":"hi",
+              "translated_word":"सब्जियां"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Vegetais"
+           },
+           {
+              "code":"es",
+              "translated_word":"Hortalizas"
+           }
+        ]
+     },
+     {
+        "en_name":"Equipment",
+        "category_id":"11",
+        "parent_id":"0",
+        "toplevel_id":"0",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Equipment"
+           },
+           {
+              "code":"ar",
+              "translated_word":"معدات"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"সরঞ্জাম"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Équipement"
+           },
+           {
+              "code":"hi",
+              "translated_word":"उपकरण"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Equipamentos"
+           },
+           {
+              "code":"es",
+              "translated_word":"Equipos"
+           }
+        ]
+     },
+     {
+        "en_name":"Business Skills",
+        "category_id":"12",
+        "parent_id":"0",
+        "toplevel_id":"0",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Business Skills"
+           },
+           {
+              "code":"ar",
+              "translated_word":"مهارت العمل"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"ব্যবসায়িক দক্ষতা "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Compétences en affaires"
+           },
+           {
+              "code":"hi",
+              "translated_word":" व्यावसायिक कौशल"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Habilidades de negócios"
+           },
+           {
+              "code":"es",
+              "translated_word":"Habilidades comerciales"
+           }
+        ]
+     },
+     {
+        "en_name":"Administration",
+        "category_id":"79",
+        "parent_id":"12",
+        "toplevel_id":"12",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Administration"
+           },
+           {
+              "code":"ar",
+              "translated_word":"الإدارة"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"প্রশাসন "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Administration"
+           },
+           {
+              "code":"hi",
+              "translated_word":"प्रशासन"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Administração"
+           },
+           {
+              "code":"es",
+              "translated_word":"Administración"
+           }
+        ]
+     },
+     {
+        "en_name":"Conflict resolution",
+        "category_id":"80",
+        "parent_id":"12",
+        "toplevel_id":"12",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Conflict resolution"
+           },
+           {
+              "code":"ar",
+              "translated_word":"حل النزاعات"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"দ্বন্দ্ব নিরসন"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Résolution de conflit"
+           },
+           {
+              "code":"hi",
+              "translated_word":"संघर्ष समाधान"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Solução de conflitos"
+           },
+           {
+              "code":"es",
+              "translated_word":"Resolución de conflictos"
+           }
+        ]
+     },
+     {
+        "en_name":"Farm management",
+        "category_id":"81",
+        "parent_id":"12",
+        "toplevel_id":"12",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Farm management"
+           },
+           {
+              "code":"ar",
+              "translated_word":"إدارة المزرعة"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"খামার ব্যবস্থাপনা"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Gestion de l&#039;exploitation agricole"
+           },
+           {
+              "code":"hi",
+              "translated_word":"खेत प्रबंधन"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Gerenciamento de fazenda"
+           },
+           {
+              "code":"es",
+              "translated_word":"Manejo de fincas"
+           }
+        ]
+     },
+     {
+        "en_name":"Finance",
+        "category_id":"82",
+        "parent_id":"12",
+        "toplevel_id":"12",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Finance"
+           },
+           {
+              "code":"ar",
+              "translated_word":"التمويل"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"অর্থায়ন"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Finance"
+           },
+           {
+              "code":"hi",
+              "translated_word":"वित्त"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Finanças"
+           },
+           {
+              "code":"es",
+              "translated_word":"Finanzas"
+           }
+        ]
+     },
+     {
+        "en_name":"Group approaches",
+        "category_id":"83",
+        "parent_id":"12",
+        "toplevel_id":"12",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Group approaches"
+           },
+           {
+              "code":"ar",
+              "translated_word":"العمل في مجموعة"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"দলগত পন্থাসমূহ   "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Approches communautaires"
+           },
+           {
+              "code":"hi",
+              "translated_word":"समूह दृष्टिकोण"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Abordagem de grupo"
+           },
+           {
+              "code":"es",
+              "translated_word":"Enfoques de grupo"
+           }
+        ]
+     },
+     {
+        "en_name":"Gender",
+        "category_id":"84",
+        "parent_id":"12",
+        "toplevel_id":"12",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Gender"
+           },
+           {
+              "code":"ar",
+              "translated_word":"النوع الاجتماعي"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"জেন্ডার "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Genre"
+           },
+           {
+              "code":"hi",
+              "translated_word":"लिंग"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Gênero"
+           },
+           {
+              "code":"es",
+              "translated_word":"Género"
+           }
+        ]
+     },
+     {
+        "en_name":"Inputs",
+        "category_id":"85",
+        "parent_id":"12",
+        "toplevel_id":"12",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Inputs"
+           },
+           {
+              "code":"ar",
+              "translated_word":"المدخلات"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"উপকরণসমূহ "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Intrant"
+           },
+           {
+              "code":"hi",
+              "translated_word":"आदान"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Insumos"
+           },
+           {
+              "code":"es",
+              "translated_word":"Insumos"
+           }
+        ]
+     },
+     {
+        "en_name":"Marketing",
+        "category_id":"86",
+        "parent_id":"12",
+        "toplevel_id":"12",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Marketing"
+           },
+           {
+              "code":"ar",
+              "translated_word":"التسويق"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"বাজারজাতকরণ"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Commercialisation"
+           },
+           {
+              "code":"hi",
+              "translated_word":"विपणन"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Marketing"
+           },
+           {
+              "code":"es",
+              "translated_word":"Mercadeo"
+           }
+        ]
+     },
+     {
+        "en_name":"Other business skills",
+        "category_id":"87",
+        "parent_id":"12",
+        "toplevel_id":"12",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Other business skills"
+           },
+           {
+              "code":"ar",
+              "translated_word":"مهارات عمل أخرى"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"অন্যান্য ব্যবসায়িক দক্ষতা "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Autre compétence en affaire"
+           },
+           {
+              "code":"hi",
+              "translated_word":"अन्य व्यावसायिक कौशल"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Outras habilidades de negócios"
+           },
+           {
+              "code":"es",
+              "translated_word":"Otras habilidades comerciales"
+           }
+        ]
+     },
+     {
+        "en_name":"Post-harvest",
+        "category_id":"88",
+        "parent_id":"12",
+        "toplevel_id":"12",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Post-harvest"
+           },
+           {
+              "code":"ar",
+              "translated_word":"ما بعد الحصاد"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"ফসল কাটা পরবর্তী কাজ"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Post-récolte"
+           },
+           {
+              "code":"hi",
+              "translated_word":"फसल कटाई के बाद"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Pós-colheita"
+           },
+           {
+              "code":"es",
+              "translated_word":"Poscosecha"
+           }
+        ]
+     },
+     {
+        "en_name":"Approaches",
+        "category_id":"13",
+        "parent_id":"0",
+        "toplevel_id":"0",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Approaches"
+           },
+           {
+              "code":"ar",
+              "translated_word":"توجهات"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"পন্থাসমূহ"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Approches"
+           },
+           {
+              "code":"hi",
+              "translated_word":"दृष्टिकोण"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Abordagens"
+           },
+           {
+              "code":"es",
+              "translated_word":"Enfoques"
+           }
+        ]
+     },
+     {
+        "en_name":"Extension approaches",
+        "category_id":"89",
+        "parent_id":"13",
+        "toplevel_id":"13",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Extension approaches"
+           },
+           {
+              "code":"ar",
+              "translated_word":"توجهات الإرشاد"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"সম্প্রসারন পন্থাসমূহ"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Approches de vulgarisation"
+           },
+           {
+              "code":"hi",
+              "translated_word":"प्रसार दृष्टिकोण"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Abordagens de extensão"
+           },
+           {
+              "code":"es",
+              "translated_word":"Enfoques de extensión"
+           }
+        ]
+     },
+     {
+        "en_name":"Other approaches",
+        "category_id":"90",
+        "parent_id":"13",
+        "toplevel_id":"13",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Other approaches"
+           },
+           {
+              "code":"ar",
+              "translated_word":"توجهات أخرى"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"অন্যান্য পন্থাসমূহ"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Autre approche"
+           },
+           {
+              "code":"hi",
+              "translated_word":"अन्य दृष्टिकोण"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Outras abordagens"
+           },
+           {
+              "code":"es",
+              "translated_word":"Otros enfoques"
+           }
+        ]
+     },
+     {
+        "en_name":"Participatory approaches",
+        "category_id":"91",
+        "parent_id":"13",
+        "toplevel_id":"13",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Participatory approaches"
+           },
+           {
+              "code":"ar",
+              "translated_word":"التوجهات التشاركية"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"অংশগ্রহণমূলক পন্থাসমূহ"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Approches participatives"
+           },
+           {
+              "code":"hi",
+              "translated_word":"सहभागी दृष्टिकोण"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Abordagens participativas"
+           },
+           {
+              "code":"es",
+              "translated_word":"Enfoques participativos"
+           }
+        ]
+     },
+     {
+        "en_name":"Seed production & dissemination",
+        "category_id":"92",
+        "parent_id":"13",
+        "toplevel_id":"13",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"انتاج وتوزيع البذور"
+           },
+           {
+              "code":"ar",
+              "translated_word":"Seed production & dissemination"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"বীজ উৎপাদন ও বিতরণ "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Production de semence et diffusion"
+           },
+           {
+              "code":"hi",
+              "translated_word":"बीज उत्पादन और प्रसार"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Produção e disseminação de sementes"
+           },
+           {
+              "code":"es",
+              "translated_word":"Producción de semillas y diseminación"
+           }
+        ]
+     },
+     {
+        "en_name":"Other",
+        "category_id":"14",
+        "parent_id":"0",
+        "toplevel_id":"0",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Other"
+           },
+           {
+              "code":"ar",
+              "translated_word":"أخرى"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"অন্যান্য"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Autre"
+           },
+           {
+              "code":"hi",
+              "translated_word":"अन्य"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Outros"
+           },
+           {
+              "code":"es",
+              "translated_word":"Otro"
+           }
+        ]
+     },
+     {
+        "en_name":"Beekeeping",
+        "category_id":"93",
+        "parent_id":"14",
+        "toplevel_id":"14",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Beekeeping"
+           },
+           {
+              "code":"ar",
+              "translated_word":"تربية النحل"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"মৌমাছি চাষ"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Apiculture"
+           },
+           {
+              "code":"hi",
+              "translated_word":" मधुमक्खी पालन"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Apicultura"
+           },
+           {
+              "code":"es",
+              "translated_word":"Apicultura"
+           }
+        ]
+     },
+     {
+        "en_name":"Biodiversity conservation",
+        "category_id":"94",
+        "parent_id":"14",
+        "toplevel_id":"14",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Biodiversity conservation"
+           },
+           {
+              "code":"ar",
+              "translated_word":"الحفاظ على التنوع البيئي"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"জীব বৈচিত্র্য সংরক্ষণ "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Conservation de la biodiversité"
+           },
+           {
+              "code":"hi",
+              "translated_word":" जैवविविधता संरक्षण"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Conservação da biodiversidade"
+           },
+           {
+              "code":"es",
+              "translated_word":"Conservación de la biodiversidad"
+           }
+        ]
+     },
+     {
+        "en_name":"Climate change adaptation",
+        "category_id":"95",
+        "parent_id":"14",
+        "toplevel_id":"14",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Climate change adaptation"
+           },
+           {
+              "code":"ar",
+              "translated_word":"التكيف مع تغيرات المناخ"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"জলবায়ু পরিবর্তন অভিযোজন"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Adaptation au changement climatique"
+           },
+           {
+              "code":"hi",
+              "translated_word":" जलवायु परिवर्तन अनुकूलन"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Adaptação às mudanças climáticas"
+           },
+           {
+              "code":"es",
+              "translated_word":"Adaptación al cambio climático"
+           }
+        ]
+     },
+     {
+        "en_name":"Food safety",
+        "category_id":"96",
+        "parent_id":"14",
+        "toplevel_id":"14",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Food safety"
+           },
+           {
+              "code":"ar",
+              "translated_word":"أمان الطعام"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"খাদ্য নিরাপত্তা"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Innocuité des produits alimentaires"
+           },
+           {
+              "code":"hi",
+              "translated_word":" खाद्य सुरक्षा"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Segurança alimentar"
+           },
+           {
+              "code":"es",
+              "translated_word":"Inocuidad alimentaria"
+           }
+        ]
+     },
+     {
+        "en_name":"Nutrition",
+        "category_id":"97",
+        "parent_id":"14",
+        "toplevel_id":"14",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Nutrition"
+           },
+           {
+              "code":"ar",
+              "translated_word":"التغذية"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"\r\nপুষ্টি"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Nutrition"
+           },
+           {
+              "code":"hi",
+              "translated_word":"पोषण"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Nutrição"
+           },
+           {
+              "code":"es",
+              "translated_word":"\r\nNutrición"
+           }
+        ]
+     },
+     {
+        "en_name":"Organic agriculture",
+        "category_id":"98",
+        "parent_id":"14",
+        "toplevel_id":"14",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Organic agriculture"
+           },
+           {
+              "code":"ar",
+              "translated_word":"الزراعة العضوية"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"জৈব কৃষি "
+           },
+           {
+              "code":"fr",
+              "translated_word":"Agriculture organique"
+           },
+           {
+              "code":"hi",
+              "translated_word":"Organic agriculture"
+           },
+           {
+              "code":"es",
+              "translated_word":"Agricultura orgánica"
+           }
+        ]
+     },
+     {
+        "en_name":"Other agricultural practices",
+        "category_id":"99",
+        "parent_id":"14",
+        "toplevel_id":"14",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Other agricultural practices"
+           },
+           {
+              "code":"ar",
+              "translated_word":"ممارسات زراعية أخرى"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"অন্যান্য কৃষি অনুশীলন"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Autre pratique agricole"
+           },
+           {
+              "code":"hi",
+              "translated_word":"अन्य कृषि पद्धतियाँ"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Outras práticas agrícolas"
+           },
+           {
+              "code":"es",
+              "translated_word":"Otras prácticas agrícolas"
+           }
+        ]
+     },
+     {
+        "en_name":"Agtube",
+        "category_id":"15",
+        "parent_id":"0",
+        "toplevel_id":"0",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Agtube"
+           },
+           {
+              "code":"ar",
+              "translated_word":"Agtube"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"অ্যাগটিউব"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Agtube"
+           },
+           {
+              "code":"hi",
+              "translated_word":"Agtube"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Agtube"
+           },
+           {
+              "code":"es",
+              "translated_word":"Agtube"
+           }
+        ]
+     },
+     {
+        "en_name":"Machines & implements",
+        "category_id":"100",
+        "parent_id":"11",
+        "toplevel_id":"11",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Machines & implements"
+           },
+           {
+              "code":"ar",
+              "translated_word":"الآلات والأدوات"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"মেশিন ও যন্ত্রপাতি"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Machines et outils"
+           },
+           {
+              "code":"hi",
+              "translated_word":"मशीनें और औजार"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Máquinas e implementos"
+           },
+           {
+              "code":"es",
+              "translated_word":"Máquinas e implementos "
+           }
+        ]
+     },
+     {
+        "en_name":"Farm devices",
+        "category_id":"101",
+        "parent_id":"11",
+        "toplevel_id":"11",
+        "translations":[
+           {
+              "code":"en",
+              "translated_word":"Farm devices"
+           },
+           {
+              "code":"ar",
+              "translated_word":"أجهزة المزرعة"
+           },
+           {
+              "code":"bgl",
+              "translated_word":"খামার যন্ত্র"
+           },
+           {
+              "code":"fr",
+              "translated_word":"Dispositifs agricoles"
+           },
+           {
+              "code":"hi",
+              "translated_word":" खेत के उपकरण"
+           },
+           {
+              "code":"pt",
+              "translated_word":"Recursos para a fazenda"
+           },
+           {
+              "code":"es",
+              "translated_word":"Estructuras agrícolas"
+           }
+        ]
+     }
+  ]
+}
