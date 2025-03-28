@@ -7,6 +7,7 @@ async function registerDevice(req, res) {
     usertype_id = 0,
     country_id = "",
     region = "",
+    city = "",
     lat = 0,
     lon = 0,
   } = req.body;
@@ -22,6 +23,7 @@ async function registerDevice(req, res) {
       usertype_id: { type: sql.Int, value: usertype_id },
       country_id: { type: sql.NVarChar(50), value: country_id },
       region: { type: sql.NVarChar(200), value: region },
+      city: { type: sql.NVarChar(200), value: city },
       lat: { type: sql.Decimal(9, 6), value: lat },
       lon: { type: sql.Decimal(9, 6), value: lon },
     });
