@@ -57,9 +57,9 @@ async function insertGeoFence(req, res) {
     const pool = await require("../config/db").poolPromise;
     const request = pool.request();
 
-    console.log("🔹 Inserting polygon...");
-    console.log("🔸 Name:", name);
-    console.log("🔸 WKT:", polygonText);
+    //  console.log("🔹 Inserting polygon...");
+    //  console.log("🔸 Name:", name);
+    //  console.log("🔸 WKT:", polygonText);
 
     request.input("name", sql.NVarChar(200), name);
     request.input("polygonText", sql.NVarChar(sql.MAX), polygonText);
@@ -67,8 +67,8 @@ async function insertGeoFence(req, res) {
 
     const result = await request.execute("AA_insert_geo_fence");
 
-    console.log("✅ Stored procedure completed.");
-    console.log("➡️  fence_id returned:", result.output.fence_id);
+    //  console.log("✅ Stored procedure completed.");
+    //  console.log("➡️  fence_id returned:", result.output.fence_id);
 
     res.json({
       success: true,
