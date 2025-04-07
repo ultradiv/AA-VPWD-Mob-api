@@ -1,0 +1,117 @@
+const { callStoredProcedure, sql } = require("../utils/dbUtils");
+
+async function getLanguagesByLocation(req, res) {
+  const { lat, lon } = req.body;
+
+  if (lat == null || lon == null) {
+    return res.status(400).json({ error: "Missing latitude or longitude" });
+  }
+
+  try {
+    const result = await callStoredProcedure("AA_get_languages_by_location", {
+      lat: { type: sql.Decimal(9, 6), value: lat },
+      lon: { type: sql.Decimal(9, 6), value: lon },
+    });
+
+    res.json({ languages: result });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+}
+
+async function insertGeoFence(req, res) {
+  const { name, polygonText } = req.body;
+
+  if (!name || !polygonText) {
+    return res.status(400).json({ error: "Missing name or polygonText" });
+  }
+
+  try {
+    const pool = await require("../config/db").poolPromise;
+    const request = pool.request();
+
+    request.input("name", sql.NVarChar(200), name);
+    request.input("polygonText", sql.NVarChar(sql.MAX), polygonText);
+    request.output("fence_id", sql.Int);
+
+    await request.execute("AA_insert_geo_fence");
+    const fence_id = request.parameters.fence_id.value;
+
+    res.json({ success: true, fence_id });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+}
+
+async function getLanguagesByFence(req, res) {
+  const { fence_id } = req.query;
+
+  if (!fence_id) {
+    return res.status(400).json({ error: "Missing fence_id" });
+  }
+
+  try {
+    const pool = await require("../config/db").poolPromise;
+    const result = await pool
+      .request()
+      .input("fence_id", sql.Int, fence_id)
+      .execute("AA_get_languages_by_fence");
+
+    const assigned = result.recordsets[0];
+    const available = result.recordsets[1];
+
+    res.json({ assigned, available });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+}
+
+async function assignLanguagesToFence(req, res) {
+  const { fence_id, language_ids } = req.body;
+
+  if (!fence_id || !Array.isArray(language_ids)) {
+    return res
+      .status(400)
+      .json({ error: "Missing fence_id or language_ids array" });
+  }
+
+  const idsCsv = language_ids.join(",");
+
+  try {
+    await callStoredProcedure("AA_assign_languages_to_fence", {
+      fence_id: { type: sql.Int, value: fence_id },
+      language_ids: { type: sql.VarChar(sql.MAX), value: idsCsv },
+    });
+
+    res.json({ success: true });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+}
+
+async function removeLanguageFromFence(req, res) {
+  const { fence_id, language_id } = req.body;
+
+  if (!fence_id || !language_id) {
+    return res.status(400).json({ error: "Missing fence_id or language_id" });
+  }
+
+  try {
+    await callStoredProcedure("AA_remove_language_from_fence", {
+      fence_id: { type: sql.Int, value: fence_id },
+      language_id: { type: sql.Int, value: language_id },
+    });
+
+    res.json({ success: true });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+}
+
+module.exports = {
+  insertGeoFence,
+  getLanguagesByFence,
+  assignLanguagesToFence,
+  removeLanguageFromFence,
+  getLanguagesByLocation,
+};
