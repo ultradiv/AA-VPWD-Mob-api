@@ -10,6 +10,7 @@ async function callStoredProcedure(procedureName, inputParams = {}) {
     const result = await request.execute(procedureName);
     return result.recordset;
   } catch (err) {
+    console.error("SQL Error Details:", err);
     throw new Error(`Stored procedure error: ${err.message}`);
   }
 }
