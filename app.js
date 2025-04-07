@@ -10,10 +10,6 @@ const geoRoutes = require("./routes/geoRoutes");
 const authMiddleware = require("./middleware/auth");
 
 const PORT = process.env.PORT || 4010;
-
-app.use(express.json());
-app.use(authMiddleware); // All routes protected by API key
-
 app.use(
   cors({
     origin: "https://aa-mob.vpwd.net", // <-- your frontend domain
@@ -21,6 +17,8 @@ app.use(
     allowedHeaders: ["Content-Type", "x-api-key"],
   })
 );
+app.use(express.json());
+app.use(authMiddleware); // All routes protected by API key
 
 app.use("/api/example", exampleRoutes);
 app.use("/api/register", registerRoutes);
