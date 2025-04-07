@@ -18,7 +18,7 @@ async function getLanguagesByLocation(req, res) {
     res.status(500).json({ error: err.message });
   }
 }
-
+/*
 async function insertGeoFence(req, res) {
   const { name, polygonText } = req.body;
 
@@ -45,7 +45,7 @@ async function insertGeoFence(req, res) {
     res.status(500).json({ error: err.message });
   }
 }
-/*
+*/
 async function insertGeoFence(req, res) {
   const { name, polygonText } = req.body;
 
@@ -80,7 +80,7 @@ async function insertGeoFence(req, res) {
     res.status(500).json({ error: err.message, stack: err.stack });
   }
 }
-*/
+
 async function getLanguagesByFence(req, res) {
   const { fence_id } = req.query;
 
