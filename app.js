@@ -16,7 +16,7 @@ app.use(authMiddleware); // All routes protected by API key
 
 app.use(
   cors({
-    origin: "*", // Or "*" for dev, but restrict in prod!
+    origin: "https://aa-mob.vpwd.net", // <-- your frontend domain
     methods: ["GET", "POST"],
     allowedHeaders: ["Content-Type", "x-api-key"],
   })
