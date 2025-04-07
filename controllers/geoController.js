@@ -146,10 +146,29 @@ async function removeLanguageFromFence(req, res) {
   }
 }
 
+async function deleteGeoFence(req, res) {
+  const fence_id = parseInt(req.params.id);
+  if (!fence_id) {
+    return res.status(400).json({ error: "Missing fence ID" });
+  }
+
+  try {
+    await callStoredProcedure("AA_delete_geo_fence", {
+      fence_id: { type: sql.Int, value: fence_id },
+    });
+
+    res.json({ success: true });
+  } catch (err) {
+    console.error("❌ Failed to delete geofence:", err);
+    res.status(500).json({ success: false, error: err.message });
+  }
+}
+
 module.exports = {
   insertGeoFence,
   getLanguagesByFence,
   assignLanguagesToFence,
   removeLanguageFromFence,
   getLanguagesByLocation,
+  deleteGeoFence,
 };
