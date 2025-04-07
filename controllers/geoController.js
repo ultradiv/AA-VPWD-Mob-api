@@ -18,7 +18,7 @@ async function getLanguagesByLocation(req, res) {
     res.status(500).json({ error: err.message });
   }
 }
-
+/*
 async function insertGeoFence(req, res) {
   const { name, polygonText } = req.body;
 
@@ -43,6 +43,41 @@ async function insertGeoFence(req, res) {
     res.json({ success: true, fence_id });
   } catch (err) {
     res.status(500).json({ error: err.message });
+  }
+}
+*/
+async function insertGeoFence(req, res) {
+  const { name, polygonText } = req.body;
+
+  if (!name || !polygonText) {
+    return res.status(400).json({ error: "Missing name or polygonText" });
+  }
+
+  try {
+    const pool = await require("../config/db").poolPromise;
+    const request = pool.request();
+
+    console.log("🔹 Inserting polygon...");
+    console.log("🔸 Name:", name);
+    console.log("🔸 WKT:", polygonText);
+
+    request.input("name", sql.NVarChar(200), name);
+    request.input("polygonText", sql.NVarChar(sql.MAX), polygonText);
+    request.output("fence_id", sql.Int);
+
+    const result = await request.execute("AA_insert_geo_fence");
+
+    console.log("✅ Stored procedure completed.");
+    console.log("➡️  fence_id returned:", result.output.fence_id);
+
+    res.json({
+      success: true,
+      fence_id: result.output.fence_id,
+      debug: result,
+    });
+  } catch (err) {
+    console.error("❌ SQL EXECUTION ERROR:", err);
+    res.status(500).json({ error: err.message, stack: err.stack });
   }
 }
 
