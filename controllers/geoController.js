@@ -30,6 +30,9 @@ async function insertGeoFence(req, res) {
     const pool = await require("../config/db").poolPromise;
     const request = pool.request();
 
+    console.log("INSERTING polygon:", name);
+    console.log("POLYGON TEXT:", polygonText);
+
     request.input("name", sql.NVarChar(200), name);
     request.input("polygonText", sql.NVarChar(sql.MAX), polygonText);
     request.output("fence_id", sql.Int);
