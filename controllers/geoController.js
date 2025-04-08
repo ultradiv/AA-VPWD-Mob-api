@@ -114,7 +114,7 @@ async function assignLanguageToFence(req, res) {
   try {
     await callStoredProcedure("AA_assign_language_to_fence", {
       fence_id: { type: sql.Int, value: fence_id },
-      language_id: { type: sql.VarChar(sql.MAX), value: language_id },
+      language_id: { type: sql.Int, value: language_id },
     });
 
     res.json({ success: true });
