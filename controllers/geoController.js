@@ -104,25 +104,22 @@ async function getLanguagesByFence(req, res) {
   }
 }
 
-async function assignLanguagesToFence(req, res) {
-  const { fence_id, language_ids } = req.body;
+async function assignLanguageToFence(req, res) {
+  const { fence_id, language_id } = req.body;
 
-  if (!fence_id || !Array.isArray(language_ids)) {
-    return res
-      .status(400)
-      .json({ error: "Missing fence_id or language_ids array" });
+  if (!fence_id || !language_id) {
+    return res.status(400).json({ error: "Missing fence_id or language_id" });
   }
 
-  const idsCsv = language_ids.join(",");
-
   try {
-    await callStoredProcedure("AA_assign_languages_to_fence", {
+    await callStoredProcedure("AA_assign_language_to_fence", {
       fence_id: { type: sql.Int, value: fence_id },
-      language_ids: { type: sql.VarChar(sql.MAX), value: idsCsv },
+      language_id: { type: sql.VarChar(sql.MAX), value: language_id },
     });
 
     res.json({ success: true });
   } catch (err) {
+    console.error("Assign failed:", err);
     res.status(500).json({ error: err.message });
   }
 }
@@ -142,6 +139,7 @@ async function removeLanguageFromFence(req, res) {
 
     res.json({ success: true });
   } catch (err) {
+    console.error("Remove failed:", err);
     res.status(500).json({ error: err.message });
   }
 }
@@ -167,7 +165,7 @@ async function deleteGeoFence(req, res) {
 module.exports = {
   insertGeoFence,
   getLanguagesByFence,
-  assignLanguagesToFence,
+  assignLanguageToFence,
   removeLanguageFromFence,
   getLanguagesByLocation,
   deleteGeoFence,
