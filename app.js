@@ -15,6 +15,7 @@ app.use(
     origin: "https://aa-mob.vpwd.net", // <-- your frontend domain
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "x-api-key"],
+    credentials: true,
   })
 );
 app.use(express.json());
