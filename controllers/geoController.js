@@ -18,34 +18,30 @@ async function getLanguagesByLocation(req, res) {
     res.status(500).json({ error: err.message });
   }
 }
-/*
-async function insertGeoFence(req, res) {
-  const { name, polygonText } = req.body;
+async function getLanguagesByLocation(req, res) {
+  const { lat, lon, uuid } = req.body;
 
-  if (!name || !polygonText) {
-    return res.status(400).json({ error: "Missing name or polygonText" });
+  if (!lat || !lon || !uuid) {
+    return res.status(400).json({ error: "Missing lat, lon, or uuid" });
   }
 
   try {
-    const pool = await require("../config/db").poolPromise;
-    const request = pool.request();
+    const result = await callStoredProcedure("AA_get_languages_by_point", {
+      lat: { type: sql.Float, value: parseFloat(lat) },
+      lon: { type: sql.Float, value: parseFloat(lon) },
+      uuid: { type: sql.NVarChar(255), value: uuid },
+    });
 
-    console.log("INSERTING polygon:", name);
-    console.log("POLYGON TEXT:", polygonText);
-
-    request.input("name", sql.NVarChar(200), name);
-    request.input("polygonText", sql.NVarChar(sql.MAX), polygonText);
-    request.output("fence_id", sql.Int);
-
-    await request.execute("AA_insert_geo_fence");
-    const fence_id = request.parameters.fence_id.value;
-
-    res.json({ success: true, fence_id });
+    res.json({
+      uuid,
+      languages: result.recordset,
+    });
   } catch (err) {
+    console.error("Error fetching languages by location:", err);
     res.status(500).json({ error: err.message });
   }
 }
-*/
+
 async function insertGeoFence(req, res) {
   const { name, polygonText } = req.body;
 
