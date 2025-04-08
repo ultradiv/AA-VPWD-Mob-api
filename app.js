@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 4010;
 app.use(
   cors({
     origin: "https://aa-mob.vpwd.net", // <-- your frontend domain
-    methods: ["GET", "POST"],
+    methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "x-api-key"],
   })
 );
