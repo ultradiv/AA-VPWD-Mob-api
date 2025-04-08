@@ -149,7 +149,7 @@ async function updateGeoFence(req, res) {
   if (!fence_id || !polygonText) {
     return res.status(400).json({ error: "Missing fence_id or polygonText" });
   }
-  console.log("Updating fence:", { fence_id, polygonText, name });
+  //console.log("Updating fence:", { fence_id, polygonText, name });
   try {
     await callStoredProcedure("AA_update_geo_fence", {
       fence_id: { type: sql.Int, value: fence_id },
