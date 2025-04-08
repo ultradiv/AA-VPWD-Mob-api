@@ -15,5 +15,6 @@ router.get("/languages", getLanguagesByFence);
 router.post("/assign-language", assignLanguageToFence);
 router.post("/remove-language", removeLanguageFromFence);
 router.delete("/delete/:id", deleteGeoFence);
+router.put("/update", updateGeoFence);
 
 module.exports = router;

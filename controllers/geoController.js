@@ -162,6 +162,27 @@ async function deleteGeoFence(req, res) {
   }
 }
 
+async function updateGeoFence(req, res) {
+  const { fence_id, polygonText, name } = req.body;
+
+  if (!fence_id || !polygonText) {
+    return res.status(400).json({ error: "Missing fence_id or polygonText" });
+  }
+
+  try {
+    await callStoredProcedure("AA_update_geo_fence", {
+      fence_id: { type: sql.Int, value: fence_id },
+      polygonText: { type: sql.NVarChar(sql.MAX), value: polygonText },
+      name: { type: sql.NVarChar(255), value: name || null },
+    });
+
+    res.json({ success: true });
+  } catch (err) {
+    console.error("❌ Update failed:", err);
+    res.status(500).json({ error: err.message });
+  }
+}
+
 module.exports = {
   insertGeoFence,
   getLanguagesByFence,
@@ -169,4 +190,5 @@ module.exports = {
   removeLanguageFromFence,
   getLanguagesByLocation,
   deleteGeoFence,
+  updateGeoFence,
 };
