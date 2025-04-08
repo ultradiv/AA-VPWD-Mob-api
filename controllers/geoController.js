@@ -15,12 +15,15 @@ async function getLanguagesByLocation(req, res) {
     });
 
     res.json({
-      uuid,
-      languages: result.recordset,
+      languages: languages.map((lang) => ({
+        id: lang.id,
+        name: lang.language_name,
+        code: lang.language_code,
+      })),
     });
   } catch (err) {
     console.error("Error fetching languages by location:", err);
-    res.status(500).json({ error: err.message });
+    res.status(500).json({ error: "Server error while fetching languages" });
   }
 }
 
