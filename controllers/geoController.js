@@ -1,24 +1,6 @@
 const { callStoredProcedure, sql } = require("../utils/dbUtils");
 
 async function getLanguagesByLocation(req, res) {
-  const { lat, lon } = req.body;
-
-  if (lat == null || lon == null) {
-    return res.status(400).json({ error: "Missing latitude or longitude" });
-  }
-
-  try {
-    const result = await callStoredProcedure("AA_get_languages_by_location", {
-      lat: { type: sql.Decimal(9, 6), value: lat },
-      lon: { type: sql.Decimal(9, 6), value: lon },
-    });
-
-    res.json({ languages: result });
-  } catch (err) {
-    res.status(500).json({ error: err.message });
-  }
-}
-async function getLanguagesByLocation(req, res) {
   const { lat, lon, uuid } = req.body;
 
   if (!lat || !lon || !uuid) {
