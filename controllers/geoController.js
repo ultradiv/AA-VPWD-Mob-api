@@ -15,7 +15,7 @@ async function getLanguagesByLocation(req, res) {
     });
 
     res.json({
-      languages: languages.map((lang) => ({
+      languages: result.map((lang) => ({
         id: lang.id,
         name: lang.language_name,
         code: lang.language_code,
