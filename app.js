@@ -12,7 +12,7 @@ const authMiddleware = require("./middleware/auth");
 const PORT = process.env.PORT || 4010;
 app.use(
   cors({
-    origin: "https://aa-mob.vpwd.net", // <-- your frontend domain
+    origin: "*", //"https://aa-mob.vpwd.net", // <-- your frontend domain
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "x-api-key"],
     credentials: true,
