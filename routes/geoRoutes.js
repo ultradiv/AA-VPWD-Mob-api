@@ -7,6 +7,7 @@ const {
   assignLanguageToFence,
   removeLanguageFromFence,
   deleteGeoFence,
+  updateGeoFence,
 } = require("../controllers/geoController");
 
 router.post("/languages", getLanguagesByLocation);
