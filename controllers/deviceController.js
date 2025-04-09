@@ -1,5 +1,4 @@
-const { callStoredProcedure } = require("../utils/dbUtils");
-const { sql } = require("../db/mssql");
+const { callStoredProcedure, sql } = require("../utils/dbUtils");
 
 async function deviceHeartbeat(req, res) {
   const { uuid, lat, lon } = req.body;
