@@ -164,6 +164,37 @@ async function updateGeoFence(req, res) {
   }
 }
 
+async function checkPolygonChange(req, res) {
+  const { lat, lon, uuid } = req.body;
+
+  if (!lat || !lon || !uuid) {
+    return res.status(400).json({ error: "Missing lat, lon, or uuid" });
+  }
+
+  try {
+    const result = await callStoredProcedure("AA_check_polygon_change", {
+      lat: { type: sql.Float, value: parseFloat(lat) },
+      lon: { type: sql.Float, value: parseFloat(lon) },
+      uuid: { type: sql.NVarChar(255), value: uuid },
+    });
+
+    // result will be an array with 1 object: { noChange: 'true' } or 'false'
+    const response = result?.[0];
+    if (!response) {
+      return res
+        .status(500)
+        .json({ error: "Unexpected response from procedure" });
+    }
+
+    res.json({
+      noChange: response.noChange === "true",
+    });
+  } catch (err) {
+    console.error("Error in checkPolygonChange:", err);
+    res.status(500).json({ error: "Internal server error" });
+  }
+}
+
 module.exports = {
   insertGeoFence,
   getLanguagesByFence,
@@ -172,4 +203,5 @@ module.exports = {
   getLanguagesByLocation,
   deleteGeoFence,
   updateGeoFence,
+  checkPolygonChange,
 };
