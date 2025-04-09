@@ -7,6 +7,7 @@ const registerRoutes = require("./routes/registerRoutes");
 const statsRoutes = require("./routes/statsRoutes");
 const categoriesRoutes = require("./routes/categoriesRoutes");
 const geoRoutes = require("./routes/geoRoutes");
+const deviceRoutes = require("./routes/device");
 const authMiddleware = require("./middleware/auth");
 
 const PORT = process.env.PORT || 4010;
@@ -26,6 +27,7 @@ app.use("/api/register", registerRoutes);
 app.use("/api/stats", statsRoutes);
 app.use("/api/categories", categoriesRoutes);
 app.use("/api/geo", geoRoutes);
+app.use("/api/device", deviceRoutes);
 
 app.listen(PORT, () => {
   console.log(`API server running at http://localhost:${PORT}`);
