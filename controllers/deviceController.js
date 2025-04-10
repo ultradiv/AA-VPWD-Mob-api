@@ -3,8 +3,10 @@ const { callStoredProcedure, sql } = require("../utils/dbUtils");
 async function deviceHeartbeat(req, res) {
   const { uuid, lat, lon } = req.body;
 
-  if (!uuid || !lat || !lon) {
-    return res.status(400).json({ error: "Missing uuid, lat or lon" });
+  if (typeof uuid !== "string" || lat === undefined || lon === undefined) {
+    return res
+      .status(400)
+      .json({ error: "Missing or invalid uuid, lat or lon" });
   }
 
   try {
