@@ -4,9 +4,13 @@ async function getMobJson(req, res) {
   const lang = req.query.lang || "en";
 
   try {
-    const result = await callStoredProcedure("AA_GetInterfaceLanguageJson", {
-      lang_code: { type: sql.NVarChar, value: lang },
-    });
+    const result = await callStoredProcedure(
+      "AA_GetInterfaceLanguageJson",
+      {
+        lang_code: { type: sql.NVarChar, value: lang },
+      },
+      true
+    );
 
     if (!Array.isArray(result) || result.length === 0) {
       return res

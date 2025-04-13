@@ -1,6 +1,10 @@
 const { poolPromise, sql } = require("../config/db");
 
-async function callStoredProcedure(procedureName, inputParams = {}) {
+async function callStoredProcedure(
+  procedureName,
+  inputParams = {},
+  returnMultiple = false
+) {
   try {
     const pool = await poolPromise;
     const request = pool.request();
@@ -8,7 +12,7 @@ async function callStoredProcedure(procedureName, inputParams = {}) {
       request.input(key, type, value);
     }
     const result = await request.execute(procedureName);
-    return result.recordset;
+    return returnMultiple ? result.recordsets : result.recordset;
   } catch (err) {
     console.error("SQL Error Details:", err);
     throw new Error(`Stored procedure error: ${err.message}`);
