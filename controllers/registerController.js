@@ -4,7 +4,7 @@ async function registerDevice(req, res) {
   const {
     device_id,
     gender_id = 0,
-    usertype_id = 0,
+    usertype_id = "",
     country_id = "",
     region = "",
     city = "",
