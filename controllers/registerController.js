@@ -20,7 +20,7 @@ async function registerDevice(req, res) {
     const result = await callStoredProcedure("AA_register_device", {
       device_id: { type: sql.NVarChar(200), value: device_id },
       gender_id: { type: sql.Int, value: gender_id },
-      usertype_id: { type: sql.Int, value: usertype_id },
+      usertype_id: { type: sql.NVarChar(10), value: usertype_id },
       country_id: { type: sql.NVarChar(50), value: country_id },
       region: { type: sql.NVarChar(200), value: region },
       city: { type: sql.NVarChar(200), value: city },
